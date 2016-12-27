@@ -1,15 +1,11 @@
 package com.kenny.loadingdemo.activities;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 import com.kenny.loadingdemo.R;
+import com.kenny.loadingdemo.customView.GhostLoadingView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +13,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
 
     }
 }

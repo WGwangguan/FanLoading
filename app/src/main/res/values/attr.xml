@@ -11,4 +11,12 @@
         <attr name="speed" format="integer" />
     </declare-styleable>
 
+    <declare-styleable name="GhostLoading">
+        <attr name="ghostColor" format="color" />
+        <attr name="eyesColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="breedTime" format="integer" />
+        <attr name="eyesSize" format="integer" />
+    </declare-styleable>
+
 </resources>
